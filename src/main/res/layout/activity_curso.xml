@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".CursoActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="336dp"
+        android:layout_height="146dp"
+        app:srcCompat="@mipmap/cursoser"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <RadioGroup
+        android:layout_width="343dp"
+        android:layout_height="491dp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="210dp">
+
+        <TextView
+            android:id="@+id/txt_producto"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Ingresar producto"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_precio"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Ingresar precio"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_ingresar"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:background="@color/black"
+            android:text="guardar cursos"
+            app:backgroundTint="@color/purple_200" />
+
+        <Button
+            android:id="@+id/btn_registrar"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            app:backgroundTint="@color/purple_200"
+            tools:text="registrar producto" />
+
+        <Button
+            android:id="@+id/btn_modificar"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="modificar"
+            app:backgroundTint="@color/purple_200" />
+
+        <Button
+            android:id="@+id/btn_borrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="borrar"
+            app:backgroundTint="@color/purple_200" />
+
+        <Button
+            android:id="@+id/btn_consultar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="consultar"
+            app:backgroundTint="@color/purple_200" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

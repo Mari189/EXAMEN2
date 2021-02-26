@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="367dp"
+        android:layout_height="199dp"
+        app:srcCompat="@mipmap/quienesomos"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <ScrollView
+        android:layout_width="376dp"
+        android:layout_height="451dp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="252dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="360dp"
+                android:layout_height="422dp"
+                android:text="Somos Kira House nos dedicamos al cuidado y estetica de sus mascotas Dar un servicio integral de estética y salud a su mascota, con la mejor relación precio valor. Comprendemos que su mejor amigo necesita de cuidados que, muchas veces se nos convierten en tareas difíciles debido, al ritmo de nuestras labores y de la cuidad.	 Inovadora, ágil en la actualización de las tendencias mundiales y altamente competitiva. 	 Fuertemente orientada a sobrepasar la expectativa de nuestros clientes y consentir a sus mascotas.	 Inovadora, ágil en la actualización de las tendencias mundiales y altamente competitiva."
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
